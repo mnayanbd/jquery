@@ -1,0 +1,58 @@
+.heading{
+	color: red;
+	text-decoration: underline wavy blue;
+	text-underline-position: under;
+}
+
+.container{
+	padding: 10px 0;
+}
+
+.panel{
+	padding: 20px 50px;
+	background-color: teal;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.content{
+	padding: 20px 50px;
+	text-emphasis: center;
+	background-color: #ddd;
+	display: none;
+}
+
+#drag { 
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	background-color: red;
+	}
+
+#draggable {
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	margin: 10px 10px 10px 0; 
+	}
+
+  #droppable { 
+  	width: 150px; 
+  	height: 150px; 
+  	padding: 0.5em; 
+  	margin: 10px; 
+  	
+  }
+
+  /*progressbar*/
+  .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
